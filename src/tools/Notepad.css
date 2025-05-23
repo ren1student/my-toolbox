@@ -1,0 +1,23 @@
+/* Notepad 组件样式 */
+.notepad {
+  width: 320px;
+  margin: 0 auto;
+  background: #fffbe6;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  padding: 20px 16px 16px 16px;
+}
+.notepad-area {
+  width: 100%;
+  height: 180px;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 1.1rem;
+  background: #fff;
+  resize: vertical;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+}
+.notepad-area:focus {
+  outline: 2px solid #ffe58f;
+}
